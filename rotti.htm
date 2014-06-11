@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script type="text/javascript">
+          function playSound(el,soundfile) {
+              if (el.mp3) {
+                  if(el.mp3.paused) el.mp3.play();
+                  else el.mp3.pause();
+              } else {
+                  el.mp3 = new Audio(soundfile);
+                  el.mp3.play();
+              }
+          }
+      </script>
+  </head>
+
+
+<style>
+* { margin: 0; padding: 0; }
+
+html {
+background: url(background.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#page-wrap {width: 500px; margin: 50px auto; padding: 20px; background-image: url(clear.png); -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
+p { font: 15px/2 Georgia, Serif; margin: 0 0 30px 0; text-indent: 40px; }
+</style>
+<body text="#000000" link="#000000" vlink="#000000" alink="#000000">
+
+    <div id="page-wrap">
+<center>
+<h1>ROTTERDAM SOUNDBOARD</h1>
+<table>
+<colgroup width="300" span="2"></colgroup>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'DoYouBelieveInAThingCalledRoach.mp3');">DoYouBelieveInAThingCalledRoach</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'EngagementWasAmazing.mp3');">EngagementWasAmazing</span></td>	
+	</tr>
+
+
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'EuropeVsKorea.mp3');">EuropeVsKorea</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'GreatForcefields.mp3');">GreatForcefields</span></td>	
+	</tr>
+	<tr>
+		<td> <span id="dummy" onclick="playSound(this, 'Guys.mp3');">Guys</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'HashtagRottiBuild.mp3');">HashtagRottiBuild</span></td>	
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'HelloGuysWelcome.mp3');">HelloGuysWelcome</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'HashtagRottiMicro.mp3');">HashtagRottiMicro</span></td>	
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'HesAForceToBeReckonnedWIth.mp3');">HesAForceToBeReckonnedWIth</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'HashtagRottiMacro.mp3');">HashtagRottiMacro</span></td>	
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'IDontKnowMan.mp3');">IDontKnowMan</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'HomeStoryCup.mp3');">HomeStoryCup</span></td>	
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'ISmellCheese.mp3');">ISmellCheese</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'LetsTakeAshot.mp3');">LetsTakeAshot</span></td>	
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'LetsPresenttheplayers.mp3');">LetsPresenttheplayers</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'OhOhBigCheese.mp3');">OhOhBigCheese</span></td>	
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'OhOh.mp3');">OhOh</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'What.mp3');">What</span></td>	
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'ooooOOOOhhhh.mp3');">ooooOOOOhhhh</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'SmallLittleSkirmishGoingOn.mp3');">SmallLittleSkirmishGoingOn</span></td>	
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'SickHowDidHeWinThatFight.mp3');">SickHowDidHeWinThatFight</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'Terran.mp3');">Terran</span></td>	
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'StandardMacroGame.mp3');">StandardMacroGame</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'PROTOSSSS.mp3');">PROTOSSSS</span></td>	
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'TimeForSomeBeer.mp3');">TimeForSomeBeer</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'Zerg.mp3');">Zerg</span></td>	
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'VeryBadMicro.mp3');">VeryBadMicro</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'VeryBadMacro.mp3');">VeryBadMacro</span></td>
+			
+	</tr>
+	<tr>
+		<td><span id="dummy" onclick="playSound(this, 'VeryGoodMicro.mp3');">VeryGoodMicro</span></td>
+		<td><span id="dummy" onclick="playSound(this, 'VeryGoodMacro.mp3');">VeryGoodMacro</span></td>
+			
+	</tr>
+</table>    
+<br>
+<br>
+<a href="http://reddit.com/u/dekay89">/u/dekay89</a>
+<br>
+Image: R1ch, IEM NY
+</center>
+</div>
+</body>
+</html>
+
